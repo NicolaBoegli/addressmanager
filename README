@@ -1,0 +1,6 @@
+1. Customization
+    resources/application.yml is the params file, you can change the username and password there.
+
+2. Build a jar.
+    I have already built a jar-file and placed it in the root folder.
+    If you want to build a new one, you need perform the maven clean & install command, a new jar-file will be generated in the target folder.

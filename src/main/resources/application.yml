@@ -1,0 +1,10 @@
+spring:
+    datasource:
+        dataSourceClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost/gkjava_db
+        username: root
+        password:
+    jpa:
+        hibernate:
+            ddl-auto: update
+            dialect: org.hibernate.dialect.MySQLInnoDBDialect
